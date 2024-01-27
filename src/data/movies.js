@@ -8,6 +8,7 @@ const data = [
     genre: "Comedy/Drama",
     rating: 5,
     price: 140,
+    isComingSoon: true,
   },
   {
     id: crypto.randomUUID(),
@@ -28,6 +29,11 @@ const data = [
     genre: "Action/Comedy/Crime/Drama",
     rating: 4,
     price: 100,
+    isTrending: true,
+    isFavorite: false,
+
+    isNewRelease: false,
+    addedToWatchLater: false,
   },
   {
     id: crypto.randomUUID(),
@@ -38,6 +44,11 @@ const data = [
     genre: "Comedy, Drama, Thriller",
     rating: 4,
     price: 250,
+    isTrending: true,
+    isFavorite: true,
+
+    isNewRelease: false,
+    addedToWatchLater: true,
   },
   {
     id: crypto.randomUUID(),
@@ -48,6 +59,11 @@ const data = [
     genre: "Action/Adventure/Sci-fi",
     rating: 5,
     price: 100,
+    isTrending: true,
+    isFavorite: false,
+
+    isNewRelease: false,
+    addedToWatchLater: true,
   },
   {
     id: crypto.randomUUID(),
@@ -58,6 +74,11 @@ const data = [
     genre: "Action/Adventure/Sci-fi",
     rating: 5,
     price: 120,
+    isTrending: true,
+    isFavorite: true,
+
+    isNewRelease: false,
+    addedToWatchLater: true,
   },
   {
     id: crypto.randomUUID(),
@@ -68,6 +89,11 @@ const data = [
     genre: "Drama",
     rating: 5,
     price: 150,
+    isTrending: true,
+    isFavorite: true,
+
+    isNewRelease: false,
+    addedToWatchLater: false,
   },
   {
     id: crypto.randomUUID(),
@@ -78,6 +104,11 @@ const data = [
     genre: "Drama/Romance",
     rating: 4,
     price: 110,
+    isTrending: true,
+    isFavorite: true,
+
+    isNewRelease: false,
+    addedToWatchLater: false,
   },
   {
     id: crypto.randomUUID(),
@@ -88,6 +119,11 @@ const data = [
     genre: "Action/Crime/Drama",
     rating: 5,
     price: 130,
+    isTrending: true,
+    isFavorite: true,
+
+    isNewRelease: false,
+    addedToWatchLater: false,
   },
   {
     id: crypto.randomUUID(),
@@ -98,6 +134,7 @@ const data = [
     genre: "Family/Sci-fi",
     rating: 4,
     price: 95,
+    isComingSoon: true,
   },
   {
     id: crypto.randomUUID(),
@@ -108,6 +145,11 @@ const data = [
     genre: "Action/Sci-fi",
     rating: 4,
     price: 110,
+    isTrending: true,
+    isFavorite: true,
+
+    isNewRelease: false,
+    addedToWatchLater: false,
   },
   {
     id: crypto.randomUUID(),
@@ -118,6 +160,10 @@ const data = [
     genre: "Animation/Adventure/Comedy",
     rating: 4,
     price: 80,
+    isTrending: true,
+    isFavorite: true,
+    isNewRelease: true,
+    addedToWatchLater: false,
   },
   {
     id: crypto.randomUUID(),
@@ -128,6 +174,10 @@ const data = [
     genre: "Crime/Drama",
     rating: 5,
     price: 160,
+    isTrending: true,
+    isFavorite: true,
+    isNewRelease: false,
+    addedToWatchLater: false,
   },
   {
     id: crypto.randomUUID(),
@@ -138,6 +188,11 @@ const data = [
     genre: "Action/Adventure/Fantasy",
     rating: 4,
     price: 140,
+    isTrending: false,
+    isFavorite: true,
+
+    isNewRelease: true,
+    addedToWatchLater: true,
   },
   {
     id: crypto.randomUUID(),
@@ -148,6 +203,7 @@ const data = [
     genre: "Adventure/Drama/Sci-fi",
     rating: 5,
     price: 145,
+    isComingSoon: true,
   },
 ];
 

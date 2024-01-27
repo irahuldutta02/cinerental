@@ -1,16 +1,16 @@
-import Logo from "./assets/logo.svg";
-import Ring from "./assets/ring.svg";
+import { useContext, useState } from "react";
 import Moon from "./assets/icons/moon.svg";
 import Sun from "./assets/icons/sun.svg";
+import Logo from "./assets/logo.svg";
+import Ring from "./assets/ring.svg";
 import Cart from "./assets/shopping-cart.svg";
-import { useContext, useState } from "react";
 import { CartDetails } from "./cine/CartDetails";
-import { MovieContext, ThemeContext } from "./context";
+import { CartContext, ThemeContext } from "./context";
 
 export function Header() {
   const [showCart, setShowCart] = useState(false);
 
-  const { state } = useContext(MovieContext);
+  const { state } = useContext(CartContext);
   const { darkMode, setDarkMode } = useContext(ThemeContext);
 
   function handleCartShow() {
@@ -19,7 +19,7 @@ export function Header() {
 
   return (
     <>
-      <header className="fixed w-full dark:bg-[#171923] rounded-b-3xl bg-white shadow-lg" >
+      <header className="fixed w-full dark:bg-[#171923] rounded-b-3xl bg-white shadow-lg">
         {showCart && (
           <CartDetails
             onClose={() => {

@@ -1,12 +1,12 @@
 import { useContext } from "react";
-import { MovieContext } from "../context";
+import { toast } from "react-toastify";
 import Delete from "../assets/delete.svg";
 import checkout from "../assets/icons/checkout.svg";
+import { CartContext } from "../context";
 import { getImageUrl } from "../utils/cine-utility";
-import { toast } from "react-toastify";
 
 export function CartDetails({ onClose }) {
-  const { state, dispatch } = useContext(MovieContext);
+  const { state, dispatch } = useContext(CartContext);
 
   return (
     <>

@@ -1,10 +1,10 @@
 import { useContext } from "react";
-import { getImageUrl } from "../utils/cine-utility";
-import { MovieContext } from "../context";
 import { toast } from "react-toastify";
+import { CartContext } from "../context";
+import { getImageUrl } from "../utils/cine-utility";
 
 export function MovieDetailsModal({ movie, onClose }) {
-  const { state, dispatch } = useContext(MovieContext);
+  const { state, dispatch } = useContext(CartContext);
 
   return (
     <>

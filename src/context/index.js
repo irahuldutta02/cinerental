@@ -1,7 +1,13 @@
 import { createContext } from "react";
 
+const CartContext = createContext();
+
+const ThemeContext = createContext(); 
+
 const MovieContext = createContext();
 
-const ThemeContext = createContext();
+const FilterContext = createContext();
 
-export { MovieContext, ThemeContext };
+const SearchContext = createContext();
+
+export { CartContext, ThemeContext, MovieContext, FilterContext, SearchContext };
