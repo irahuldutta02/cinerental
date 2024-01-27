@@ -28,7 +28,7 @@ export function Header() {
           />
         )}
         <nav className="container flex items-center justify-between space-x-10 py-6">
-          <a href="index.html">
+          <a href="">
             <img src={Logo} width="139" height="26" alt="Logo" />
           </a>
 
